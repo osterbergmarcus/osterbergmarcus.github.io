@@ -1,0 +1,16 @@
+# Site settings
+title: Marcus Osterberg Blog
+email: marcusterberg@gmail.com
+description: this.blog is the home of my insights as a developer. Here I share my experience from the path of becoming a better developer.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: ""
+disqus_account: marcusosterbergblog
+
+# Social Usernames
+twitter_username: osterbergmarcus
+github_username: osterbergmarcus
+medium_username: osterberg
+codepen_username: osterbergmarcus
+
+# Build settings
+markdown: kramdown
