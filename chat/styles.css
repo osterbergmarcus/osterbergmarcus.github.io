@@ -1,10 +1,14 @@
 body {
+  background-image: url("http://gratisography.com/pictures/113_1.jpg");
+  background-size: 100%;
 }
 
 .chat-app {
 height: 500px;
 width: 600px;
-background-color: #fff;
+background-color: rgba(243,243,243,0.5);
+border-radius: 25px;
+padding: 20px;
 padding-top: 30px;
 }
 
@@ -22,8 +26,7 @@ font-family: 'Poiret One', cursive;
 }
 
 .main{
-  background-color: #F3F3F3;
-  border-radius: 25px;
+  background-color: rgba(243,243,243,0.5);
   padding: 20px;
 }
 
@@ -36,4 +39,8 @@ font-family: 'Poiret One', cursive;
 .glyphicon-user{
 font-size: 24px;
 color: #111;
+}
+
+.form-control {
+  background-color: #F3F3F3 !important;
 }
