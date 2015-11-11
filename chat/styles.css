@@ -22,7 +22,9 @@ font-family: 'Poiret One', cursive;
 }
 
 .main{
-background-color: #fff;
+  background-color: #F3F3F3;
+  border-radius: 25px;
+  padding: 20px;
 }
 
 .message-text {
