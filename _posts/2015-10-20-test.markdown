@@ -8,7 +8,7 @@ tags: Chat Firebase API jQuery JavaScript
 <i>How you can build a basic chat application using JavaScript and Firebase API</i>
 <br/>
 <br/>
-<a href="http:#www.firebase.com/">Firebase</a> provides a realtime database service with an user friendly backend interface to manage your data. With some JavaScript I created this simple chat app, <a href="http:#osterbergmarcus.github.io/chat/">check it out!</a>
+<a href="http://www.firebase.com/" target="_new">Firebase</a> provides a realtime database service with an user friendly backend interface to manage your data. With some JavaScript I created this simple chat app, <a href="http://osterbergmarcus.github.io/chat/" target="_new">check it out!</a>
 <br/>
 {% highlight ruby %}
 #make a reference to your database
@@ -79,7 +79,7 @@ messageField.keypress(function (e) {
 <br/>
 There is a lot more methods and well written documentation supporting a variety of languages on Firebase official homepage. All ready to use for your next application.
 
-Feel free to improve this app by requesting issues or pull requests on <a href="https://github.com/osterbergmarcus/Firebase-chat-app">Github</a> 
+Feel free to improve this app by requesting issues or pull requests on <a href="https://github.com/osterbergmarcus/Firebase-chat-app" target="_new">Github</a> 
 <br/>
 <br/>
 Enjoy your code.
