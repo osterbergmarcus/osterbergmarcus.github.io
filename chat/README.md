@@ -1,5 +1,5 @@
 ## Chat app
-* A simple todo app built on vuejs frame work http://vuejs.org
+* A simple todo app built on vuejs framework http://vuejs.org
 
 ## Contact
 * [@_osterbergmarcus](http://www.twitter.com/osterbergmarcus)
