@@ -2,8 +2,8 @@
 title: Marcus Osterberg CV
 description: Marcus Osterberg CV
 favicon:
-baseurl: "http://osterbergmarcus.github.io/resume/"
-url: "http://osterbergmarcus.github.io/resume/"
+baseurl:
+url: 
 rss_url:
 
 # Build settings
