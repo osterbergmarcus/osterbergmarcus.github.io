@@ -27,21 +27,6 @@ author:
       started: 2015
       duration: (2015 - Present)
       description: Gonutri is an innovative platform that connects clients with their nutritionists. My biggest challenge for this project has been to  develop a web app that provides real time communication for our users.
-      [linkid]: http://www.example.com/ "Optional Title"
-    - work2:
-      company: Portfolio
-      location:
-      title:
-      started: 2015
-      duration: (2015 - Present)
-      description: Chat app built with JavaScript, Bootstrap and Firebase
-    - education1:
-      organization: John Bauer High School, Sweden
-      degree: High School Degree equivalent to A-Level
-      major:
-      started: 2004
-      duration: (2004 - 2007)
-      description: School included an extensive IT program focusing on programming
   languages:
     - language1:
       name: Swedish
@@ -60,6 +45,12 @@ author:
       proficiency: Basic
   programmingSkills:
     - skill1:
-      name: JavaScript, HTML, CSS, PHP
+      name: JavaScript
+    - skill1:
+      name: HTML
+    - skill1:
+      name: CSS
+    - skill1:
+      name: PHP  
     - skill2:
       name: jQuery, vuejs, Polymer-project, Bootstrap, WordPress

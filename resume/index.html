@@ -15,7 +15,7 @@ layout: default
                             <div class="timeline-panel grid-block">
                                 <div class="timeline-heading">
                                     {% if work.company %}
-                                        <h4 class="timeline-title">{{ work.company }} </h4>
+                                        <h4 class="timeline-title">{{ work.company }}</h4>
                                     {% endif %}
                                     <p>
                                         <small class="text-muted">
@@ -45,6 +45,49 @@ layout: default
                     {% endfor %}
                 </ul>
             {% endif %}
+            <a name="portfolio"></a>
+<div class="portfolio">
+ <div class="arrow-portfolio">
+  </div>
+   <div class="header-portfolio">
+   <h3>S h o w c a s e</h3>
+   <hr class="intro-divider">
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="thumbnail-view">
+        <img class="img-responsive" src="https://github.com/osterbergmarcus/osterbergmarcus.github.io/blob/master/assets/img/thumbnail1.jpg?raw=true">
+        <div class="mask">
+          <h2>To-do app</h2>
+          <p>Built with JavaScript, Bootstrap and firebase for data storage</p>
+          <a href="http://codepen.io/osterbergmarcus/full/OyvbZX/" class="info">Show</a>
+        </div>
+      </div>
+    </div>
+    <!-- work2 -->
+     <div class="col-md-4 col-sm-6">
+      <div class="thumbnail-view">
+        <img class="img-responsive" src="https://github.com/osterbergmarcus/osterbergmarcus.github.io/blob/master/assets/img/thumbnail2.jpg?raw=true">
+        <div class="mask">
+          <h2>My Blog</h2>
+          <p>Here I write about web development</p>
+          <a href="http://osterbergmarcus.github.io" class="info">Show</a>
+        </div>
+      </div>
+    </div>
+    <!-- work3 -->
+     <div class="col-md-4 col-sm-6">
+      <div class="thumbnail-view">
+        <img class="img-responsive" src="https://raw.githubusercontent.com/osterbergmarcus/osterbergmarcus.github.io/master/assets/img/thumbnail3.jpg">
+        <div class="mask">
+          <h2>Quote Machine</h2>
+          <p>A random quote generator</p>
+          <a href="http://codepen.io/osterbergmarcus/full/mexKqb/" class="info">Show</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
             {% if site.author.educationHistory %}
                 <h3 class="title with-icon"><span class="fa fa-book cat-title"></span>Education History</h3>
                 <ul class="timeline">
