@@ -2,8 +2,8 @@
 title: Marcus Osterberg CV
 description: Marcus Osterberg CV
 favicon:
-baseurl:
-url:
+baseurl: ""
+url: ""
 rss_url:
 
 # Build settings
@@ -51,6 +51,6 @@ author:
     - skill1:
       name: CSS
     - skill1:
-      name: PHP  
+      name: PHP
     - skill2:
       name: jQuery, vuejs, Polymer-project, Bootstrap, WordPress
