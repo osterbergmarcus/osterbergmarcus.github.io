@@ -83,7 +83,9 @@ Vue.component('my-tasks', {
     }
   }
 });
+
 {% endhighlight %}
+
 <br/>
 <br/>
 <h2><strong>HTML</strong></h2>
@@ -93,7 +95,7 @@ Vue.component('my-tasks', {
 
 #Use v-model for data binding, here we are binding an element to out data object newTask and a onkeyup event to invoke our method 'addTodo'
 <input class="form-control" v-model="newTask" @keyup.enter="addTodo(todo)">
-#<i>NOTE: when we are refering newTask to new-task we are using camelCase for newTask and kebab-case for our html attribute new-task.</i>
+#NOTE: when we are refering newTask to new-task we are using camelCase for newTask and kebab-case for our html attribute new-task.
 
 #Render our computed method remaining using v-show and output the length of remaining todos using double mustache tags
 <span v-show="remaining">({{ remaining.length }})</span>
@@ -107,7 +109,9 @@ Vue.component('my-tasks', {
 
 #Use v-if directive to render number of completed todos if any todo are completed
  <div v-if="complete.length">
+
 {% endhighlight %}
+
 <br/>
 <br/>
 This was my first Vuejs experience and I'm already planing to use Vuejs for future projects. Very ejoyable framework.
