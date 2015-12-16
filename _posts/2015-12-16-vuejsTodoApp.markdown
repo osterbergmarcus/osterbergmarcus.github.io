@@ -8,7 +8,7 @@ tags: Todo Vuejs JavaScript
 <i>How to build an TODO app using Vuejs</i>
 <br/>
 <br/>
-<a href="http://vuejs.org" target="_new">Vuejs</a> is a <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel" target="_new">MVVM</a> JavaScript framework. With Vuejs easy to understand <a href="http://vuejs.org/guides/">documentation</a> and <a href="http://getbootstrap.com/">bootstrap</a> for styling I created this simple TODO app,<a href="http://osterbergmarcus.github.io/todo/" target="_new">check it out!</a>
+<a href="http://vuejs.org" target="_new">Vuejs</a> is a <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel" target="_new">MVVM</a> JavaScript framework. With Vuejs easy to understand <a href="http://vuejs.org/guides/ target="_new">documentation</a> and <a href="http://getbootstrap.com/">bootstrap</a> for styling I created this simple TODO app,<a href="http://osterbergmarcus.github.io/todo/" target="_new">check it out!</a>
 <br/>
 Let's see how we are using Vue here. See code <a href="https://github.com/osterbergmarcus/todo-app">source</a> for reference.
 <br/>
