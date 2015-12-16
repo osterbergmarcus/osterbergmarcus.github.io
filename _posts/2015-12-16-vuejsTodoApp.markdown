@@ -8,14 +8,15 @@ tags: Todo Vuejs JavaScript
 <i>How to build an TODO app using Vuejs</i>
 <br/>
 <br/>
-<a href="http://vuejs.org" target="_new">Vuejs</a> is a <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel" target="_new">MVVM</a> JavaScript framework. With Vuejs easy to understand <a href="http://vuejs.org/guides/" target="_new">documentation</a> and <a href="http://getbootstrap.com/">bootstrap</a> for styling I created this simple TODO app,<a href="http://osterbergmarcus.github.io/todo/" target="_new">check it out!</a>
+<a href="http://vuejs.org" target="_new">Vuejs</a> is a <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel" target="_new">MVVM</a> JavaScript framework. With Vuejs easy to understand <a href="http://vuejs.org/guide/" target="_new">documentation</a> and <a href="http://getbootstrap.com/">bootstrap</a> for styling I created this simple TODO app, <a href="http://osterbergmarcus.github.io/todo/" target="_new">check it out!</a>
+<br/>
 <br/>
 Let's see how we are using Vue here. See code <a href="https://github.com/osterbergmarcus/todo-app">source</a> for reference.
 <br/>
 <br/>
 <h2><strong>JS</strong></h2>
 {% highlight JavaScript %}
-//Create a new Vue instance where we define the DOM element that Vue should manage in this case el: '#app' with the data objects newTodo and todos
+//Create a new Vue instance where we define the DOM element that Vue should manage, in this case el: '#app' with the data objects newTodo and todos
 new Vue({
   el: '#app',
 
@@ -31,14 +32,16 @@ new Vue({
   }
 });
 
-//Create a child instance of vue where we define a new component called 'my-tasks' and pass through the properties 'list' and 'new-task' from our parent by using props
+/*Create a child instance of vue where we define a new component called 'my-tasks' and pass through the properties 'list' 
+and 'new-task' from our parent by using props*/
 Vue.component('my-tasks', {
   props: ['list', 'new-task'],
 
-//We are defining a template called '#my-tasks-template' that will be used for our component <my-tasks>
+/*We are defining a template called '#my-tasks-template' that 
+will be used for our component <my-tasks>*/
   template: '#my-tasks-template',
 
-//Use computed for our logics and methods for our functions
+//Computed property for our logic and method property for functions
   computed: {
     complete: function(todo){
       return this.list.filter(this.isCompleted);
@@ -90,19 +93,23 @@ Vue.component('my-tasks', {
 <br/>
 <h2><strong>HTML</strong></h2>
 {% highlight HTML %}
-<!--We will have to set an attribute on our component to bind list to todos and newTask to newTodo-->
+<!--We will have to set an attribute on our component to bind 
+list to todos and newTask to newTodo-->
 <my-tasks :list="todos" :new-task="newTodo">
 
-<!--Use v-model for data binding, here we are binding an element to out data object newTask and a onkeyup event to invoke our method 'addTodo'-->
+<!--Use v-model for data binding, here we are binding an element to our data object newTask and an onkeyup event to invoke our method 'addTodo'-->
 <input class="form-control" v-model="newTask" @keyup.enter="addTodo(todo)">
-<!--NOTE: when we are refering newTask to new-task we are using camelCase for newTask and kebab-case for our html attribute new-task.-->
+<!--NOTE: when we are refering newTask to new-task we are using 
+camelCase for newTask and kebab-case for our 
+html attribute new-task.-->
 
 <!--Render our computed method remaining using v-show and output the length of remaining todos using double mustache tags-->
 <span v-show="remaining">({{ "{{ remaining.length " }}}})</span>
 
 <!--Using rendering condition v-for. Every item inside remaining in this case we refer to items as "todo", output the todo.task-->
 <li class="list-group-item list-group-item-info" v-for="todo in remaining">
-  <span>{{ "{{ todo.task " }}}}</span> <!--Again inside double mustache tag-->
+  <span>{{ "{{ todo.task " }}}}</span> <!--Again inside double 
+  mustache tag-->
 
 <!--Set v-else on element for conditional rendering-->
  <p v-else>No tasks yet, get a life and add some tasks!</p>
@@ -114,7 +121,7 @@ Vue.component('my-tasks', {
 
 <br/>
 <br/>
-This was my first Vuejs experience and I'm already planing to use Vuejs for future projects. Very ejoyable framework.
+This was my first Vuejs experience and I'm already planing to use Vuejs for future projects. Very enjoyable framework.
 
 Feel free to improve this app by requesting issues or pull requests on <a href="https://github.com/osterbergmarcus/todo-app" target="_new">Github</a>
 <br/>
