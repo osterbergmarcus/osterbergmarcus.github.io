@@ -87,7 +87,7 @@ Vue.component('my-tasks', {
 <br/>
 <br/>
 <h2><strong>HTML</strong></h2>
-{% highlight %}
+{% highlight ruby %}
 #We will have to set an attribute on our component to bind list to todos and newTask to newTodo
 <my-tasks :list="todos" :new-task="newTodo">
 
@@ -107,7 +107,7 @@ Vue.component('my-tasks', {
 
 #Use v-if directive to render number of completed todos if any todo are completed
  <div v-if="complete.length">
-{$ endhighlight %}
+{% endhighlight %}
 <br/>
 <br/>
 This was my first Vuejs experience and I'm already planing to use Vuejs for future projects. Very ejoyable framework.
