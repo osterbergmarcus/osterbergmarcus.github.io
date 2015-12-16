@@ -20,16 +20,16 @@
 
     <template id="my-tasks-template">
       <center><h1><strong>my todos</strong></h1></center>
-      <input class="form-control" v-model="newTask" v-on:keyup.enter="addTodo(todo)">
+      <input class="form-control" v-model="newTask" @keyup.enter="addTodo(todo)">
       <h2><i>tasks </i><span v-show="remaining">({{ remaining.length }})</span></h2>
       <ul class="list-group" v-show="list.length">
         <li class="list-group-item list-group-item-info" v-for="todo in remaining">
           <span>{{ todo.task }}</span>
 
-          <button class="btn btn-default" v-on:click="removeTodo(todo)"><span class="glyphicon glyphicon-remove"></span>
+          <button class="btn btn-default" @click="removeTodo(todo)"><span class="glyphicon glyphicon-remove"></span>
 
           </button>
-          <button class="btn btn-default" v-on:click="editTodo(todo)"><span class="glyphicon glyphicon-edit"></span>
+          <button class="btn btn-default" @click="editTodo(todo)"><span class="glyphicon glyphicon-edit"></span>
 
           </button>
           <button class="btn btn-default" @click="completed(todo)"><span class="glyphicon glyphicon-ok"></span>
