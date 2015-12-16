@@ -11,7 +11,7 @@ tags: Todo Vuejs JavaScript
 <a href="http://vuejs.org" target="_new">Vuejs</a> is a <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel" target="_new">MVVM</a> JavaScript framework. With Vuejs easy to understand <a href="http://vuejs.org/guide/" target="_new">documentation</a> and <a href="http://getbootstrap.com/">bootstrap</a> for styling I created this simple TODO app, <a href="http://osterbergmarcus.github.io/todo/" target="_new">check it out!</a>
 <br/>
 <br/>
-Let's see how we are using Vue here. See code <a href="https://github.com/osterbergmarcus/todo-app">source</a> for reference.
+Lets go over the structure and API used for this app. See code <a href="https://github.com/osterbergmarcus/todo-app">source</a> for reference.
 <br/>
 <br/>
 <h2><strong>JS</strong></h2>
@@ -41,7 +41,7 @@ Vue.component('my-tasks', {
 will be used for our component <my-tasks>*/
   template: '#my-tasks-template',
 
-//Computed property for our logic and method property for functions
+//Computed property for logic and method property for functions
   computed: {
     complete: function(todo){
       return this.list.filter(this.isCompleted);
