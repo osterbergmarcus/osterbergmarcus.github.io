@@ -1,7 +1,7 @@
 ---
 layout: blog
 title:  "Vuejs Todo App"
-date:   2015-12-16 14:30:00
+date:   2015-12-16 13:00:00
 tags: Todo Vuejs JavaScript
 ---
 
