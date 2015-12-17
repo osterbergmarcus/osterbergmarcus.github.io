@@ -11,7 +11,7 @@ tags: Todo Vuejs JavaScript
 <a href="http://vuejs.org" target="_new">Vuejs</a> is a <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel" target="_new">MVVM</a> JavaScript framework. With Vuejs easy to understand <a href="http://vuejs.org/guide/" target="_new">documentation</a> and <a href="http://getbootstrap.com/">bootstrap</a> for styling I created this simple TODO app, <a href="http://osterbergmarcus.github.io/todo/" target="_new">check it out!</a>
 <br/>
 <br/>
-Lets go over the structure and API used for this app. See code <a href="https://github.com/osterbergmarcus/todo-app">source</a> for reference.
+Lets go over the structure and API used for this app. See code <a href="https://github.com/osterbergmarcus/vuejs-todo-app">source</a> for reference.
 <br/>
 <br/>
 <h2><strong>JS</strong></h2>
@@ -121,9 +121,9 @@ html attribute new-task.-->
 
 <br/>
 <br/>
-This was my first Vuejs experience and I'm already planing to use Vuejs for future projects. Very enjoyable framework.
+This was my first Vuejs experience and I'm already planing to use Vuejs for future projects and so should you. Very enjoyable framework!
 
-Feel free to improve this app by requesting issues or pull requests on <a href="https://github.com/osterbergmarcus/todo-app" target="_new">Github</a>
+Feel free to improve this app by requesting issues or pull requests on <a href="https://github.com/osterbergmarcus/vuejs-todo-app" target="_new">Github</a>
 <br/>
 <br/>
 Enjoy your code.
