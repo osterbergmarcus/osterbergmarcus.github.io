@@ -35,7 +35,7 @@ counter2(); // Number of events: 1
 counter1(); // Number of events: 3
 {% endhighlight %}
 <br/>
-<i>newCounter</i> closes over <i>increment</i>, <i>counter</i> can be referenced to and accessed by <i>increment</i>. <i>increment</> holds the scope chain and prevents it from being garbage collected.
+<i>newCounter</i> closes over <i>increment</i>, <i>counter</i> can be referenced to and accessed by <i>increment</i>. The <strong>Closure</strong> now holds the scope chain and prevents it from being garbage collected.
 <br/>
 <br/>
 <i>counter1</i> and <i>counter2</i> will keep track of their own value.
