@@ -1,10 +1,10 @@
 # My blog
 * A simple blog powerd by (http://jekyllrb.com/)
 * Where I blog about my journey of becoming a better developer
-* Check it out here (http://osterbergmarcus.github.io)
+* Check it out here (http://marcusosterberg.com)
 
 ## Contact
-* [@_osterbergmarcus](http://www.twitter.com/osterbergmarcus)
+* [@osterbergmarcus](http://www.twitter.com/osterbergmarcus)
 
 ##Contribution
 * Feel free for issue reporting and pull requests

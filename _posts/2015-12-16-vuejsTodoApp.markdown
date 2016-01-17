@@ -32,12 +32,20 @@ new Vue({
   }
 });
 
+<<<<<<< HEAD
 /*Create a child instance of vue where we define a new component called 'my-tasks' and pass through the properties 'list'
+=======
+/*Create a child instance of vue where we define a new component called 'my-tasks' and pass through the properties 'list' 
+>>>>>>> origin/master
 and 'new-task' from our parent by using props*/
 Vue.component('my-tasks', {
   props: ['list', 'new-task'],
 
+<<<<<<< HEAD
 /*We are defining a template called '#my-tasks-template' that
+=======
+/*We are defining a template called '#my-tasks-template' that 
+>>>>>>> origin/master
 will be used for our component <my-tasks>*/
   template: '#my-tasks-template',
 
@@ -93,14 +101,23 @@ will be used for our component <my-tasks>*/
 <br/>
 <h2><strong>HTML</strong></h2>
 {% highlight HTML %}
+<<<<<<< HEAD
 <!--We will have to set an attribute on our component to bind
+=======
+<!--We will have to set an attribute on our component to bind 
+>>>>>>> origin/master
 list to todos and newTask to newTodo-->
 <my-tasks :list="todos" :new-task="newTodo">
 
 <!--Use v-model for data binding, here we are binding an element to our data object newTask and an onkeyup event to invoke our method 'addTodo'-->
 <input class="form-control" v-model="newTask" @keyup.enter="addTodo(todo)">
+<<<<<<< HEAD
 <!--NOTE: when we are refering newTask to new-task we are using
 camelCase for newTask and kebab-case for our
+=======
+<!--NOTE: when we are refering newTask to new-task we are using 
+camelCase for newTask and kebab-case for our 
+>>>>>>> origin/master
 html attribute new-task.-->
 
 <!--Render our computed method remaining using v-show and output the length of remaining todos using double mustache tags-->
@@ -108,7 +125,11 @@ html attribute new-task.-->
 
 <!--Using rendering condition v-for. Every item inside remaining in this case we refer to items as "todo", output the todo.task-->
 <li class="list-group-item list-group-item-info" v-for="todo in remaining">
+<<<<<<< HEAD
   <span>{{ "{{ todo.task " }}}}</span> <!--Again inside double
+=======
+  <span>{{ "{{ todo.task " }}}}</span> <!--Again inside double 
+>>>>>>> origin/master
   mustache tag-->
 
 <!--Set v-else on element for conditional rendering-->
