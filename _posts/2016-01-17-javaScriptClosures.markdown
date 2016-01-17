@@ -30,7 +30,7 @@ counter1(); // Number of events: 1
 counter1(); // Number of events: 2
 counter2(); // Number of events: 1
 counter1(); // Number of events: 3
-{% end highlight %}
+{% endhighlight %}
 
 <i>newCounter</i> closes over <i>increment</i>, <i>counter</i> can be referenced to and accessed by <i>increment</i>.
 
