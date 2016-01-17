@@ -10,7 +10,7 @@ tags: JavaScript Closures
 <br/>
 I want to share how I started to understand <strong>Closures</strong> in JavaScript.
 This is a beginner friendly view with a simple example.
-Closures is a function wrapped inside of a functions body that has connected to its scope chain e.g. outer variables.
+Closures is a function wrapped inside of a functions body that has connection to its scope chain e.g. outer variables.
 <br/>
 <br/>
 Definition from the book Speaking JavaScript "A closure is a function plus the connection to the scope in which the function was created" -<i>Dr.Axel Rauschmayer</i>
@@ -38,7 +38,7 @@ counter1(); // Number of events: 3
 <i>newCounter</i> closes over <i>increment</i>, <i>counter</i> can be referenced to and accessed by <i>increment</i>.
 <br/>
 <br/>
-<i>counter1</i> and <i>counter2</i> will keep track of their own value
+<i>counter1</i> and <i>counter2</i> will keep track of their own value.
 <br/>
 <br/>
 This is a very simple but hopefully a clear perspective of what closures are.
