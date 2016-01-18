@@ -10,7 +10,7 @@ tags: JavaScript Closures
 <br/>
 I want to share how I started to understand <strong>Closures</strong> in JavaScript.
 This is a beginner friendly view with a simple example.
-Closures is a function wrapped inside of a functions body that has connection to its scope chain e.g. outer variables.
+Closures is a function wrapped inside of a functions body that can be referenced to its scope chain e.g. outer variables.
 <br/>
 <br/>
 Definition from the book Speaking JavaScript "A closure is a function plus the connection to the scope in which the function was created" -<i>Dr.Axel Rauschmayer</i>
