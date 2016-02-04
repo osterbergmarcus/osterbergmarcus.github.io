@@ -22,16 +22,12 @@ Here's an array
 {% highlight JavaScript %}
 var x = [1, 2]
 {% endhighlight %}
-<br/>
-<i>x</i> is an instance of Array
-<i>x</i> inherits all prototype properties from Array. So for example calling
-Array.prototype.map() function on <i>x</i>
+<i>x</i> is an instance of Array. <i>x</i> inherits all prototype properties from Array. So we could for example call Array.prototype.map() function on <i>x</i>
 {% highlight JavaScript %}
 x.map(function(a) { return a + 1});
 //returns
 [2, 3]
 {% endhighlight %}
-<br/>
 <br/>
 Lets create our own prototype. For this demonstration we will be using the constructor pattern.
 {% highlight JavaScript %}
@@ -40,26 +36,24 @@ function createCountry(country){
 this.country = country;
 }
 {% endhighlight %}
-<br/>
 {% highlight JavaScript %}
 //Lets create a country by calling the constructor with the argument of 'Sweden'
 var sweden = new World('Sweden')
 {% endhighlight %}
-<br/>
 {% highlight JavaScript %}
 //sweden is now an object with the key value pair of country: 'Sweden',
-sweden { country: sweden }
+sweden { country: 'Sweden' }
 {% endhighlight %}
 <br/>
 Now we want <i>sweden</i> to say hello to the world. This is where <strong>prototypes</strong> and the <strong>prototype-chain</strong> comes into play.
-<br/>
 {% highlight JavaScript %}
 //Lets define our constructor createCountry prototype property
-createCountry.prototype.helloWorld = function() { console.log('I am a country called ' + this.country) };
+createCountry.prototype.helloWorld = function() {
+console.log('I am a country called ' + this.country)
+};
 {% endhighlight %}
-<br/>
 <i>createCountry</i> now has a <i>helloWorld</i> prototype property which represents a function.
-<i>sweden</i> is still an object with the key value pair of { country: sweden } with a prototypal reference of <i>helloWorld</i>.
+<i>sweden</i> is still an object with the key value pair of { country: 'Sweden' } with a prototypal reference of <i>helloWorld</i>.
 <br/>
 {% highlight JavaScript %}
 //Call helloWorld on sweden
@@ -76,11 +70,10 @@ If we now add a new country
 {% highlight JavaScript %}
 var canada = New createCountry('Canada')
 {% endhighlight %}
-<br/>
 Same goes for <i>canada</i>, it will inherite the protype properties from createCountry. This is how a prototype and the prototype chain works.
 <br/>
 <br/>
-The concept of prototypes and prototypal inheritance can be stretched longer. I hope you found this article helpful. If you have any ideas or examples please share below!
+The concept of prototypes and prototypal inheritance can be more stretched. I hope you found this article helpful. If you have any ideas or examples please share below!
 <br/>
 <br/>
 Enjoy your code.
