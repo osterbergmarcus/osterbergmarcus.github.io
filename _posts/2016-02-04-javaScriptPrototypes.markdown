@@ -4,6 +4,7 @@ title:  "JavaScript Prototypes"
 date:   2016-02-04 15:00:00
 tags: JavaScript Prototypes
 ---
+
 <i>Prototypes are scary</i>
 <br/>
 <br/>
