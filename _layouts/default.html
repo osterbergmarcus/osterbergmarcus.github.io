@@ -4,14 +4,16 @@
 <html>
 
   {% include head.html %}
-
+<header class="header z-depth-1">
+</header>
   <body>
-      <div class="container-fluid page-wrap">
+      <div class="container">
+        <div class="top">
         <h1><strong>MARCUS ÖSTERBERG</strong></h1>
         <h2>
         <strong>Creator</strong>. <strong>Learner</strong>. <strong>Publisher</strong>. <br/>I reckon JavaScript will do the work.
     </h2>
-      <div class"row-fluid">
+      <div class"row">
         <p class="social-links">
           {% if site.twitter_username %}<a href="http://www.twitter.com/{{ site.twitter_username }}" target="_new"><i class="fa fa-twitter"></i></a>{% endif %}
           {% if site.linkedin_link %}<a href="{{ site.linkedin_link }}" target="_new"><i class="fa fa-linkedin"></i></a>{% endif %}
@@ -23,17 +25,16 @@
           {% if site.instagram_link %}<a href="{{ site.instagram_link }}" target="_new"><i class="fa fa-instagram"></i></a>{% endif %}
         </p>
       </div>
-      <a class="blog-toggle" href="#">blog</a>
-      <div id="blog-panel">
-        {% include page.html %}
-      </div>
-      <br/>
-      <!-- <a class="about-toggle" href="#">about</a>
-      <div id="about-panel">
-        <br/>
-        {% include about.html %}
-        <br/>
-      </div>
-    </div> -->
+    </div>
+    <div class="col s12">
+    </div>
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content white-text center-align">
+              {% include page.html %}
+            </div>
+          </div>
+        </div>
+    </div>
   </body>
 </html>
