@@ -5,13 +5,12 @@ font-family: 'Montserrat', sans-serif;
 
 header {
   padding-top: 5%;
-  background-color: #468BA6;
+  background-color: #428C85;
+  margin-bottom: 2.5%;
 }
 
 footer.page-footer {
-    margin-top:  10%;
-    padding-top: 5%;
-    background-color: #41A66C;
+    background-color: #428C85;
   }
 
 .container {
@@ -21,9 +20,20 @@ footer.page-footer {
 .top {
   padding-top: 10%;
   padding-bottom: 10%;
+  background-color: #111;
+  margin-bottom: 2.5%;
   h1 {
-  color: #111;
+  color: #fff;
   letter-spacing: .12em;
+  }
+}
+
+.articles {
+  margin-bottom: 2.5%;
+  p {
+    color: #111;
+    font-size: 1.5em;
+    letter-spacing: 1px;
   }
 }
 
@@ -140,4 +150,13 @@ height:50px;
 width:50px;
 z-index:1;
 display:none;
+}
+
+#back-to-top {
+  i {
+    color: #428C85;
+  }
+  margin-top:  10%;
+  padding-top: 5%;
+  margin-bottom: -34px;
 }
