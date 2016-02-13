@@ -152,11 +152,19 @@ z-index:1;
 display:none;
 }
 
+.back-to-archive {
+  position: fixed;
+  bottom: 15px;
+  left: 20px;
+  font-size: 15px;
+}
+
 #back-to-top {
-  i {
-    color: #428C85;
-  }
   margin-top:  10%;
   padding-top: 5%;
   margin-bottom: -34px;
+
+  i {
+    color: #428C85;
+  }
 }

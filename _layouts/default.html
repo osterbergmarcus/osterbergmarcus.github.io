@@ -4,44 +4,36 @@
 <html>
 
   {% include head.html %}
-<header class="header z-depth-1">
-</header>
-  <body>
-      <div class="container">
-        <div class="top">
-        <h1><strong>MARCUS ÖSTERBERG</strong></h1>
-        <h2>
+
+  {% include header.html %}
+
+<body>
+  <div class="container">
+    <div class="top">
+      <h1><strong>MARCUS ÖSTERBERG</strong></h1>
+      <h2>
         <strong>Creator</strong>. <strong>Learner</strong>. <strong>Publisher</strong>. <br/>I reckon JavaScript will do the work.
-    </h2>
-      <div class"row">
-        <p class="social-links">
-          {% if site.twitter_username %}<a href="http://www.twitter.com/{{ site.twitter_username }}" target="_new"><i class="fa fa-twitter"></i></a>{% endif %}
-          {% if site.linkedin_link %}<a href="{{ site.linkedin_link }}" target="_new"><i class="fa fa-linkedin"></i></a>{% endif %}
-          {% if site.google_plus_link %}<a href="{{ site.google_plus_link }}" target="_new"><i class="fa fa-google-plus"></i></a>{% endif %}
-          {% if site.github_username %}<a href="http://www.github.com/{{ site.github_username }}" target="_new"><i class="fa fa-github-square"></i></a>{% endif %}
-          {% if site.codepen_username %}<a href="http://www.codepen.io/{{ site.codepen_username }}" target="_new"><i class="fa fa-codepen"></i></a>{% endif %}
-          {% if site.stackoverflow_link %}<a href="{{ site.stackoverflow_link }}" target="_new"><i class="fa fa-stack-overflow"></i></a>{% endif %}
-          {% if site.medium_username %}<a href="http://www.medium.com/@{{ site.medium_username }}" target="_new"><i class="fa fa-medium"></i></a>{% endif %}
-          {% if site.instagram_link %}<a href="{{ site.instagram_link }}" target="_new"><i class="fa fa-instagram"></i></a>{% endif %}
-        </p>
-      </div>
-    </div>
-    <div class="articles">
-      <p>ARTICLES</p>
-    </div>
-    <div class="col s12">
-    </div>
-        <div class="col s12">
-              {% include page.html %}
-        </div>
-    </div>
-    <div class="container right-align" id="back-to-top">
-       <a href="#"><i class="fa fa-arrow-circle-up fa-4x"></i></a>
-    </div>
-  </body>
-<footer class="page-footer">
-  <div class="footer-copyright">
-    © 2016 Marcus Osterberg
-  </div>
-</footer>
+      </h2>
+<div class"row">
+
+  {% include social_links.html %}
+
+</div>
+</div>
+<div class="articles">
+  <p>ARTICLES</p>
+</div>
+<div class="col s12">
+
+  {% include page.html %}
+
+</div>
+</div>
+<div class="container right-align" id="back-to-top">
+  <a href="#"><i class="fa fa-arrow-circle-up fa-4x"></i></a>
+</div>
+</body>
+
+{% include footer.html %}
+
 </html>
