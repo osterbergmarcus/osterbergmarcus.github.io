@@ -4,40 +4,51 @@ font-family: 'Montserrat', sans-serif;
 }
 
 header {
-  height: 15px;
+  padding-top: 5%;
+  background-color: #468BA6;
 }
 
+footer.page-footer {
+    margin-top:  10%;
+    padding-top: 5%;
+    background-color: #41A66C;
+  }
+
 .container {
-    width: 60%;
+    width: 55%;
   }
 
 .top {
-  padding-top: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  h1 {
+  color: #111;
+  letter-spacing: .12em;
+  }
 }
 
 .collection {
-  margin: none;
+  margin: 0px;
   border: none;
-  border-radius: none;
+  border-radius: 0px;
 }
 
 .card {
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .card .card-content {
   padding-left: 30px;
   padding-top: 10px;
-
 }
 
 #post-list {
   p {
     color: #DEDEDE;
     font-size: 1em;
+    margin: 0px;
   }
-  h2 {
-  }
+
 a:visited {
   color: #111;
   }
@@ -48,6 +59,7 @@ a:link{
   font-size: 1.5em;
   letter-spacing: 1px;
   text-transform: uppercase;
+  margin-bottom: 5px;
   }
 a:active {
   color: #111;
@@ -72,15 +84,15 @@ margin-bottom: 50px;
 .blog-content{
 text-align: left;
 a:visited {
-color: #FF5959;
+color: #428C85;
 }
 
 a:link{
 text-decoration: none;
-color: #FF5959;
+color: #428C85;
 }
 a:active {
-color: #FF5959;
+color: #428C85;
 }
 }
 

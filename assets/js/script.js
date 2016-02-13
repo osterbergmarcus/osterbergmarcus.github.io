@@ -18,5 +18,3 @@ $('.backtotop').on('click', function(){
     $(window).scrollTop(0);
     $(this).fadeOut();
 });
-
-});
