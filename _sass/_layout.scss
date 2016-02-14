@@ -28,6 +28,12 @@ footer.page-footer {
   }
 }
 
+@media only screen and (min-width: 960px) {
+.flow-text {
+    font-size: 4rem;
+  }
+}
+
 .articles {
   margin-bottom: 2.5%;
   p {
