@@ -1,4 +1,7 @@
-//sroll to top
+$(window).load(function (){
+  $('.container').hide(0).fadeIn(2000);
+});
+
 var whereScroll = 100;
 $(window).scroll(function(){
 
