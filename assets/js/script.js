@@ -1,5 +1,5 @@
 $(window).load(function (){
-  $('.container').hide(0).fadeIn(2000);
+  $('.container').delay();
 });
 
 var whereScroll = 100;
