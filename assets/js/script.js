@@ -1,7 +1,3 @@
-$(window).load(function (){
-  $('.container').hide().fadeIn(1500);
-});
-
 var whereScroll = 100;
 $(window).scroll(function(){
 
