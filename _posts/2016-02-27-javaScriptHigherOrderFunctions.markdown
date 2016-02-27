@@ -2,7 +2,7 @@
 layout: blog
 title:  "JavaScript Higher-order functions"
 date:   2016-02-27 17:00:00
-tags: JavaScript Higher-order First-class Functions
+tags: JavaScript Functions Callback
 ---
 
 <i>Higher-order functions, what does that even mean.</i>
