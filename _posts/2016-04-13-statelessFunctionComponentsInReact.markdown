@@ -18,7 +18,7 @@ that are pure functions. So no state, lifecycle methods or refs attribute.
 Enough said! Lets see how these <i>Stateless Function Components</i> can be written and used.
 <br/>
 <br/>
-Typical stateful component written in with ES6 syntax.
+Typical stateful component written with ES6 syntax.
 {% highlight JavaScript %}
 class Parent extends React.Component {
   constructor(props) {
@@ -98,7 +98,7 @@ Text.propTypes = {
 Text.defaultProps = { text: 'default text' }
 {% endhighlight %}
 <br/>
-If your presentational component is small you can return your statement in one 
+If your presentational component is small you can return your statement in one line
 {% highlight JavaScript %}
 const Text = ({ addText }) => <input type="text" onChange={(event) => addText(event)} />
 {% endhighlight %}
@@ -109,7 +109,7 @@ Stateless function components not only makes your code look cleaner, easier to t
 Check out the <a href="http://codepen.io/osterbergmarcus/pen/pyprzm" target="_new">demo</a> to see full example.
 <br/>
 <br/>
-I hope you found <i>this</i> article helpful and feel free to comment below.
+I hope you found this helpful, feel free to share your insights or comments below.
 <br/>
 <br/>
 Enjoy your code.  
