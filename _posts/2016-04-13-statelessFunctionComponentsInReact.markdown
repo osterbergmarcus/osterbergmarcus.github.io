@@ -11,7 +11,7 @@ tags: JavaScript React Function Components
 With <a href="https://facebook.github.io/react/index.html" target="_new">React</a> your UI is built out of 
 <strong>reusable components</strong>. It's a modular way of development. In v0.14 <i>Stateless Functions</i> was introduced and lets
 you write <strong>Composable components</strong>. Components that are stateless and isolated.
-That means that we can write <a href="https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.e17aanyhdpresentational" target="_new"> presentational components</a> (basically a components that returns good looking divs)
+That means that we can write <a href="https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.e17aanyhdpresentational" target="_new"> presentational components</a> (basically components that returns good looking divs)
 that are pure functions. So no state, lifecycle methods or refs attribute.
 <br/>
 <br/>
@@ -47,7 +47,7 @@ class Parent extends React.Component {
 }
 {% endhighlight %}
 <br/>
-<i>App</i> passes down <i>addText</i> method and the state
+<i>Parent</i> passes down <i>addText</i> method and the state
 to our presentational component <i>Text</i>.
 <br/>
 <br/>
@@ -95,18 +95,19 @@ Text.propTypes = {
 }
 
 // And default props
-Text.defaultProps = { text: 'I'm default' }
+Text.defaultProps = { text: 'default text' }
 {% endhighlight %}
 <br/>
 If your presentational component is small you can return your statement in one 
 {% highlight JavaScript %}
-const Text = ({ addText, text }) => <input type="text" onChange={(event) => addText(event)} />
+const Text = ({ addText }) => <input type="text" onChange={(event) => addText(event)} />
 {% endhighlight %}
 <br/>
 <br/>
 Stateless function components not only makes your code look cleaner, easier to test but also improves performance.
 <br/>
-Check out the <a href="http://codepen.io/osterbergmarcus/pen/pyprzm" target="_new">demo</a> to see the whole example.
+Check out the <a href="http://codepen.io/osterbergmarcus/pen/pyprzm" target="_new">demo</a> to see full example.
+<br/>
 <br/>
 I hope you found <i>this</i> article helpful and feel free to comment below.
 <br/>
