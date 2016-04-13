@@ -67,7 +67,7 @@ const Text = ({ addText, text }) => {
 }
 {% endhighlight %}
 <br/>
-<i>Text</i> takes the properties as a parameter passed down from its parent <i>App</i>.
+<i>Text</i> takes the properties as a parameter passed down from its parent <i>Parent</i>.
 <br/>
 Could also pass the object <i>props</i> as a parameter
 {% highlight JavaScript %}
