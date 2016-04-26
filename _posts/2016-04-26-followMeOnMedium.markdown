@@ -6,6 +6,7 @@ tags: Medium
 ---
 
 <i>Migrating this blog to Medium</i>
+<br/>
 Please follow me on <a href="https://medium.com/@Osterberg" target="_new">Medium</a>
 for future tuts and articles.
 <br/>
