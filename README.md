@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0487bbfb-9cf0-498f-8a56-57ca419a0b4d/deploy-status)](https://app.netlify.com/sites/loving-knuth-21aae5/deploys)
+
 # My blog
 * A simple blog powerd by (http://jekyllrb.com/)
 * Where I blog about my journey of becoming a better developer
