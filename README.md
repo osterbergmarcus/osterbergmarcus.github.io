@@ -1,15 +1,11 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0487bbfb-9cf0-498f-8a56-57ca419a0b4d/deploy-status)](https://app.netlify.com/sites/loving-knuth-21aae5/deploys)
+THIS HAS BEEN MOVED TO https://github.com/osterbergmarcus/marcusosterberg
 
-# My blog
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8bc9e42d-12eb-46e4-919b-75bb31b39b55/deploy-status)](https://app.netlify.com/sites/distracted-bell-21ce6f/deploys)
+
+# My old blog
 * A simple blog powerd by (http://jekyllrb.com/)
-* Where I blog about my journey of becoming a better developer
-* Check it out here (http://marcusosterberg.com)
+* Where I used to blog about becoming a better developer
+* Check it out here (https://distracted-bell-21ce6f.netlify.com/)
 
 ## Contact
 * [@osterbergmarcus](http://www.twitter.com/osterbergmarcus)
-
-##Contribution
-* Feel free for issue reporting and pull requests
-
-## License
-* Made by Marcus Osterberg 2015
